@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 按下状态：半透明灰色蒙层 -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#3300FA9A"/> <!-- 20%透明黑色 -->
+            <corners android:radius="8dp"/>    <!-- 圆角优化 -->
+        </shape>
+    </item>
+
+    <!-- 默认状态：完全透明 -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent"/>
+        </shape>
+    </item>
+</selector>
